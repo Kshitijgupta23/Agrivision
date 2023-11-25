@@ -20,7 +20,7 @@ const Authenticate = async (req,res,next) =>{
         
     }catch(err){
         res.status(401).send('Unable to authenticate');
-        console.log(err);
+        //console.log(err);
     }
 }
 
