@@ -1,0 +1,83 @@
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #000000;
+  text-decoration: none;
+}
+.leaf{
+  height: 60px;
+  opacity: 0.8;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.leaf:hover{
+  opacity: 1;
+}
+
+.left{
+  padding: 20px;
+  order: 1;
+  display: flex;
+  align-items: center;
+}
+
+.brand_logo {
+  transition: all 0.3s ease 0s;
+  margin-right: auto;
+}
+.brand_logo:hover {
+  color: rgba(154,205,50,0.5);
+  transform: scale(1.2, 1.2);
+}
+
+.navbar {
+  height: 90px;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255,255,255,0.4);
+  padding: 18px 2%;
+  box-shadow: 0 0 10px grey;
+}
+
+.nav_list {
+  order: 3;
+  display: flex;
+  align-items: center;
+}
+
+.nav_items {
+  display: inline-block;
+  padding: 0px 20px;
+  transition: all 0.3s ease 0s;
+}
+.nav_items:hover{
+  transform: scale(1.2,1.2);
+}
+
+.nav_links{
+  transition: all 0.3s ease 0s;
+}
+.nav_links:hover {
+    color: rgba(154,205,50,0.5);
+}
+
+.btn{
+    padding: 12px 15px;
+    background: none;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.btn:hover {
+  color: rgba(154,205,50,0.5);
+}
+
